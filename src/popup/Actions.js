@@ -63,7 +63,7 @@ export function addSiteItem(domain, initialLoad) {
 }
 export function isDomainInvalid(domain) {
     if (domain.startsWith("!")) return false; // domains beginning with ! are advanced domains and do not follow the peasant rules of normal domains.
-    return domain.includes("/") || domain.split("*.").length > 2 || !domain.includes(".");
+        return domain.includes("/") || domain.split("*.").length > 2 || !domain.includes(".");
 }
 export function updateText(isEnabled) {
     let statusText = document.getElementById("statusText");
