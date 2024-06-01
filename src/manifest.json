@@ -1,13 +1,13 @@
 {
   "description": "This value, as well as the version value, will be replaced with the values in package.json during building",
   "manifest_version": 2,
-  "name": "NoDistractions",
-  "author": "Asciijakob",
+  "name": "NoDistractions (fork)",
+  "author": "tuurep",
   "version": "0.0.0",
-  "homepage_url": "https://github.com/AsciiJakob/NoDistractions",
+  "homepage_url": "https://github.com/tuurep/NoDistractions-fork",
   "browser_specific_settings": {
     "gecko": {
-      "id": "NoDistractions@asciijakob.se"
+      "id": "tuure.piitulainen@gmail.com"
     }
   },
   "icons": {

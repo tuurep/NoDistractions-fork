@@ -1,7 +1,7 @@
 {
-  "name": "nodistractions",
+  "name": "nodistractions-fork",
   "version": "1.1.0",
-  "description": "NoDistractions is a bloat-free website blocker with a focus on ease of use and simplicity.",
+  "description": "NoDistractions fork",
   "type": "module",
   "dependencies": {
     "webext-patterns": "^1.2.0",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AsciiJakob/NoDistractions.git"
+    "url": "git+https://github.com/tuurep/NoDistractions-fork.git"
   },
-  "author": "Asciijakob",
+  "author": "tuurep",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AsciiJakob/NoDistractions/issues"
+    "url": "https://github.com/tuurep/NoDistractions-fork/issues"
   },
-  "homepage": "https://github.com/Asciijakob/NoDistractions#readme",
+  "homepage": "https://github.com/tuurep/NoDistractions-fork#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "license-checker-webpack-plugin": "^0.2.1",
