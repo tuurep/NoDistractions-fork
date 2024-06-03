@@ -1,5 +1,4 @@
 const defaultSettings = {
-    enableOnStartup: false,
     showDisableButton: true,
     showVisitAnyways: true,
     visitAnywaysLength: 3
