@@ -2,7 +2,7 @@
 
 Fork of https://github.com/AsciiJakob/NoDistractions
 
-I had some issues with code formatting so I started this fork to clean that up and then add some features I need.
+I had some issues with building and code formatting so I started this fork to clean that up and then add some features I need.
 
 ## Added features
 
