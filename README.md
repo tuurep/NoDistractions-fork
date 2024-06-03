@@ -2,15 +2,18 @@
 
 Fork of https://github.com/AsciiJakob/NoDistractions
 
-Done some code cleanup so that it's easier to make changes, and planning to hack on a couple ideas.
+I had some issues with code formatting so I started this fork to clean that up and then add some features I need.
 
 ## Added features
 
-todo
+* Remember enabled status from when browser was last closed
+
+## Removed features
+
+* Removed the setting "Enable on browser startup", because remembering the last enabled status is more useful and intuitive to me
 
 ## Planned features
 
-* Remember enabled status from when browser was last closed
 * Show a small popup/indication when toggling with key shortcut
 
 ## Build instruction
