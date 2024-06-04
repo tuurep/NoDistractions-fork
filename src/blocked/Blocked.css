@@ -1,22 +1,15 @@
-:root {
-    --primary-color: #bbd8e3;
-    --secondary-color: #92adb8;
-}
-
 body {
     text-align: center;
-    background: #18334A;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f2328;
+    background: #ffffff;
+    font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #header {
     height: 100%;
     width: 100%;
 }
-#displayURL, span {
-    color: var(--secondary-color);
-}
-h1, p {
-    color: var(--primary-color);
+a {
+    color: #0969da;
 }
 #buttonAreaContainer {
     margin-top: 25%;
@@ -29,21 +22,17 @@ h1, p {
 #buttonArea > button{
     width: 11em;
     height: 4.5em;
-    background-color: #170f3669;
-    color: rgb(255, 255, 255);
-    border: 2px solid black;
+    background-color: #d7d9db;
+    border: 2px solid #4b4d4f;
     border-radius: 15px;
     font-size: 1.3em;
     margin: 1em;
 }
 #buttonArea > button:hover {
-    background-color:#100a2669;
+    background-color: #e6e8eb;
     cursor: pointer;
 }
 #image {
     height: 50vh;
     width: auto;
-}
-.white {
-    color: white;
 }
