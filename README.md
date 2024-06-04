@@ -8,6 +8,7 @@ I had some issues with building and code formatting so I started this fork to cl
 
 * Remember enabled status from when browser was last closed
 * Option to hide the Close Tab button on the blocked page
+* Light and dark theme for block page, using system preference
 
 ## Removed features
 
