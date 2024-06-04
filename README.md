@@ -7,6 +7,7 @@ I had some issues with building and code formatting so I started this fork to cl
 ## Added features
 
 * Remember enabled status from when browser was last closed
+* Option to hide the Close Tab button on the blocked page
 
 ## Removed features
 
@@ -15,6 +16,7 @@ I had some issues with building and code formatting so I started this fork to cl
 ## Planned features
 
 * Show a small popup/indication when toggling with key shortcut
+* CSS customization
 
 ## Build instruction
 
