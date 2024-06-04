@@ -2,7 +2,7 @@ body {
     text-align: center;
     color: #1f2328;
     background: #ffffff;
-    font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: system-ui, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #header {
     height: 100%;
