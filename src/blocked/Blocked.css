@@ -1,7 +1,9 @@
+/* ------ Default light theme ------ */
+
 body {
     text-align: center;
     color: #1f2328;
-    background: #ffffff;
+    background-color: #ffffff;
     font-family: system-ui, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #header {
@@ -19,21 +21,43 @@ a {
     align-items: center;
     justify-content: center;
 }
-#buttonArea > button{
+#buttonArea > button {
     width: 11em;
     height: 4.5em;
-    background: #e9e9ed;
+    color: #1f2328;
+    background-color: #e9e9ed;
     border: 2px solid #8f8f9d;
     border-radius: 15px;
     font-size: 1.3em;
     margin: 1em;
 }
 #buttonArea > button:hover {
-    background: #d0d0d7;
+    background-color: #d0d0d7;
     border: 2px solid #676774;
     cursor: pointer;
 }
 #image {
     height: 50vh;
     width: auto;
+}
+
+/* ------ Default dark theme ------ */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #aaaaaa;
+        background-color: #000000;
+    }
+    a {
+        color: #859abc;
+    }
+    #buttonArea > button {
+        color: #aaaaaa;
+        background-color: #222222;
+        border: 2px solid #444444;
+    }
+    #buttonArea > button:hover {
+        background-color: #333333;
+        border: 2px solid #555555;
+    }
 }
