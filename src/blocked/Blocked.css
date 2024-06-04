@@ -22,14 +22,15 @@ a {
 #buttonArea > button{
     width: 11em;
     height: 4.5em;
-    background-color: #d4d7d9;
-    border: 2px solid #a7abb0;
+    background: #e9e9ed;
+    border: 2px solid #8f8f9d;
     border-radius: 15px;
     font-size: 1.3em;
     margin: 1em;
 }
 #buttonArea > button:hover {
-    background-color: #e3e5e8;
+    background: #d0d0d7;
+    border: 2px solid #676774;
     cursor: pointer;
 }
 #image {
