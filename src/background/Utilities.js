@@ -1,8 +1,14 @@
 export default {
-    createNotification(name, alertmessage) {
+    createNotification(name, alertmessage, iconEnabled) {
+        let icon = "/static/assets/icon-low.png";
+        
+        if (iconEnabled) {
+            icon = "/static/assets/icon-enabled-low.png";
+        }
+
         browser.notifications.create(name, {
             type: "basic",
-            iconUrl: "/static/assets/icon-low.png",
+            iconUrl: icon,
             title: "NoDistractions",
             message: alertmessage
         });

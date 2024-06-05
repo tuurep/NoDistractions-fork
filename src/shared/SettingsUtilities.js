@@ -2,7 +2,8 @@ const defaultSettings = {
     showDisableButton: true,
     showCloseTabButton: true,
     showVisitAnyways: true,
-    visitAnywaysLength: 3
+    visitAnywaysLength: 3,
+    notifyOnKeyShortcut: false
 };
 export default {
     async getActiveSettings() {

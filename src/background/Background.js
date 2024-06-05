@@ -1,5 +1,6 @@
 import MessageHandler from "./MessageHandler.js";
 import BlockHandler from "./BlockHandler.js";
+import Utilities from "./Utilities.js";
 import settingsUtilities from "../shared/SettingsUtilities.js";
 const {defaultSettings, getActiveSettings, checkMissingSettings} = settingsUtilities;
 const defaultBlockedSites = ["twitter.com", "reddit.com", "facebook.com"];
@@ -51,7 +52,18 @@ async function handleMessage(request, sender, sendResponse) {
 
 browser.commands.onCommand.addListener(name => {
     if (name == "toggle-enabled") {
-        enabled.setStatus(!enabled.status);
+        const newStatus = !enabled.status;
+        enabled.setStatus(newStatus);
+
+        browser.storage.local.get("settings").then(res => {
+            if(res.settings.notifyOnKeyShortcut) {
+                if (newStatus === true) {
+                    Utilities.createNotification("toggle-status-notification", "Enabled", true);
+                } else {
+                    Utilities.createNotification("toggle-status-notification", "Disabled", false);
+                }
+            }
+        });
     }
 });
 

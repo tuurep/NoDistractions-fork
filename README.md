@@ -7,8 +7,10 @@ I had some issues with building and code formatting so I started this fork to cl
 ## Added features
 
 * Remember enabled status from when browser was last closed
+* Option to show a notification when toggling with key shortcut
+    * (Useful if you prefer not to have the icon on your toolbar)
 * Option to hide the Close Tab button on the blocked page
-* Light and dark theme for block page, using system preference
+* Light and dark theme for the blocked page, using system preference
 
 ## Removed features
 
@@ -16,7 +18,6 @@ I had some issues with building and code formatting so I started this fork to cl
 
 ## Planned features
 
-* Show a small popup/indication when toggling with key shortcut
 * CSS customization
 
 ## Build instruction
