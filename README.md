@@ -1,3 +1,9 @@
+> :warning: This fork is outdated since we added most of the features here on the original, but in a more well-thought-out way:
+>
+> https://github.com/AsciiJakob/NoDistractions/releases/tag/v1.2.0
+>
+> Archiving since some issues reference commits on this repo.
+
 # NoDistractions (fork)
 
 Fork of https://github.com/AsciiJakob/NoDistractions
@@ -15,10 +21,6 @@ I had some issues with building and code formatting so I started this fork to cl
 ## Removed features
 
 * Removed the setting "Enable on browser startup", because remembering the last enabled status is more useful and intuitive to me
-
-## Planned features
-
-* CSS customization
 
 ## Build instruction
 
